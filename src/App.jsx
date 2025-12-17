@@ -7,6 +7,8 @@ import AdmissionForm from "./nfc-admission-form";
 import Virtualtour from "./virtual-tour";
 import AdminDashboard from "./admin";
 import ApplicantManagement from "./applcant-managment";
+import MainDash from "./main-dash";
+
 
 // ⚠️ make sure file name matches exactly
 import Unifrom from "./unifrom"; 
@@ -152,6 +154,7 @@ export default function App() {
         <Route path="/offerletter" element={<Offerletter />} />
          <Route path="/admin" element={< AdminDashboard/>} />
           <Route path="/applcant-managment" element={< ApplicantManagement/>} />
+       <Route path="/main-dash" element={<MainDash />} />
 
       </Routes>
     </Router>
