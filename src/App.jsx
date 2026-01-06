@@ -22,7 +22,7 @@ function AuthPage() {
 
       {/* Coming Soon Text */}
       <h1 className="text-3xl font-semibold tracking-wide">Coming Soon</h1>
-      <p className="text-gray-300 mt-2">We are working on something amazing 🚀</p>
+     
 
     </div>
   );
